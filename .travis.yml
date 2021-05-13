@@ -7,8 +7,7 @@ branches:
   only:
     - master # build master branch only
 script:
-  - chmod +x xiaoheiwowo/xiaoheiwowo.github.io/deploy.sh
-  - bash xiaoheiwowo/xiaoheiwowo.github.io/deploy.sh
+  - bash deploy.sh
   - hexo generate # generate static files
 deploy:
   provider: pages

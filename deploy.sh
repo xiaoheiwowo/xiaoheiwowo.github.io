@@ -1,2 +1,2 @@
-git clone https://github.com/xiaoheiwowo/notebook xiaoheiwowo/xiaoheiwowo.github.io/source/_post/
-rm -rf xiaoheiwowo/xiaoheiwowo.github.io/source/_post/.git
+git clone https://github.com/xiaoheiwowo/notebook source/_post/
+rm -rf source/_post/.git
