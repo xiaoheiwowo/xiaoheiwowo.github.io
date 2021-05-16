@@ -7,7 +7,6 @@ branches:
   only:
     - master # build master branch only
 script:
-  - bash deploy.sh
   - hexo generate # generate static files
 deploy:
   provider: pages
